@@ -1,0 +1,101 @@
+// Place all the styles related to the tv_shows controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+    margin:2rem;
+    padding: 0;
+}
+
+.btn-1 {
+    box-shadow:inset 0px 1px 0px 0px #f996af;
+	background:linear-gradient(to bottom,#f996af 15%, #f6668a 100%);
+	background: color #f6668a;
+}
+.btn-2 {
+    box-shadow:inset 0px 1px 0px 0px #f8da67;
+	background:linear-gradient(to bottom,#f8da67 15%, #fec000 100%);
+	background: color#fec000;
+}
+.btn-3 {
+    box-shadow:inset 0px 1px 0px 0px #1e8696;
+	background:linear-gradient(to bottom,#1e8696 15%, #1e8696 100%);
+	background: color #1e8696;
+}
+
+.btn-4 {
+    box-shadow:inset 0px 1px 0px 0px #ff0080;
+	background:linear-gradient(to bottom,#ff6fcf 15%, #ff0080 100%);
+	background: color #ff0080;
+}
+.btn {
+	border-radius:10px;
+	border:1px solid #fee6ed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0000;
+}
+
+.titulo {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border:outset;
+    font-size: 3em;
+    color: black;
+    text-align:center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgb(238, 83, 132);
+    -webkit-box-shadow: 0 0 9px 2px rgba(0,0,0,0.5) inset, 0 4px 9px 13px rgba(0,0,0,0.2) ;
+    box-shadow: 0 0 9px 2px rgba(0,0,0,0.5) inset, 0 4px 9px 13px rgba(0,0,0,0.2) ;
+    -webkit-transition: color 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 10ms;
+    -moz-transition: color 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 10ms;
+    -o-transition: color 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 10ms;
+    transition: color 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 10ms;
+    height:70px;
+    padding-top:20px;
+    margin-bottom:50px;
+    font-weight: 700;
+  }
+
+.fondo{
+   border: 2px solid #008080; 
+}
+
+.cl{
+    color:rgb(238, 83, 132);
+    font-weight: 700;
+}
+
+.linea{
+    background-color: darkmagenta;
+    width: 1000px;
+    height: 0.5em;
+}
+
+.cont{
+    width: auto;
+    background-color:#ffff;
+    border: 2px solid #2e9599;
+    -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) inset, 0 4px 6px 10px rgba(0,0,0,0.2) ;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) inset, 0 4px 6px 10px rgba(0,0,0,0.2) ;
+}
+
+.alerta{
+    color:#ff0000;
+    font-weight: 600;
+    font-size:2em ;
+}
+
+.intro{
+    color:darkmagenta;
+    font-size: 2em;
+    font-weight: 500;
+}

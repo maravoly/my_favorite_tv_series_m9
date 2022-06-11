@@ -1,0 +1,29 @@
+<!--app/views/actors/new.html.erb-->
+<h1 class="titulo">Add Actors to Tv_Show</h1>
+
+<%= form_with(model:[@tv_show, @actor]) do |form| %>
+    <div class="field">
+        <%= form.label :first_name, :class=>"cl" %>
+        <%= form.text_field :first_name, :class=>"control-label col-sm-3" %>
+    </div>
+
+    <div class="field">
+        <%= form.label :last_name, :class=>"cl" %>
+        <%= form.text_field :last_name, :class=>"control-label col-sm-3" %>
+    </div>
+
+    <div class="field">
+        <%= form.label :age, :class=>"cl" %>
+        <%= form.number_field :age, :class=>"control-label col-sm-3" %>
+    </div>
+
+    <div class="field">
+        <%= form.label :image, :class=>"cl" %>
+        <%= form.file_field :image, :class=>"control-label col-sm-3"%>
+    </div>
+
+    <br>
+    <div class= "btn btn-1">
+        <%= form.submit%>
+    </div>
+<% end %>
